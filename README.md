@@ -13,7 +13,7 @@ Working `docker-compose.yml` for official [gitlab-ce](https://hub.docker.com/r/g
 - You can quickly start your compose gitlab instance (requires a working automated nginx_proxy compose instance)
 
 ```bash
-git clone git@github.com:mgcrea/docker-compose-gitlab-ce.git gitlab; cd $_
+git clone git@github.com:jeremy-kreditech/docker-compose-gitlab-ce.git gitlab; cd $_
 cp .env.default .env; nano .env
 make
 docker-compose up -d
